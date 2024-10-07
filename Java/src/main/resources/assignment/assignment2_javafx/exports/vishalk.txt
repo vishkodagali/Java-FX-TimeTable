@@ -1,0 +1,12 @@
+--------------------------------------------------------------
+Username: vishalk
+--------------------------------------------------------------
+Student ID: 1232412	Name: vishalk vishalkk
+--------------------------------------------------------------
+Your Enrolment:
+	* Advanced Python programming	
+	* Algorithms and complexity	
+	* Math	
+	* Data mining	
+	* Knowledge technologies	
+--------------------------------------------------------------

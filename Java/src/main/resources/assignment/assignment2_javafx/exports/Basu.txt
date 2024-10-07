@@ -1,0 +1,13 @@
+--------------------------------------------------------------
+Username: Basu
+--------------------------------------------------------------
+Student ID: s12332412	Name: Basavaraj Sanshi
+--------------------------------------------------------------
+Your Enrolment:
+	* Programming skills	
+	* Data mining	
+	* Advanced Python programming	
+	* Knowledge technologies	
+	* Algorithms and complexity	
+	* Java programming	
+--------------------------------------------------------------

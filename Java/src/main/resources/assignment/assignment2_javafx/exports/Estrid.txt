@@ -1,0 +1,13 @@
+--------------------------------------------------------------
+Username: Estrid
+--------------------------------------------------------------
+Student ID: s1020301	Name: Estrid H
+--------------------------------------------------------------
+Your Enrolment:
+	* Programming skills	
+	* Java programming	
+	* Knowledge technologies	
+	* Algorithms and complexity	
+	* Advanced Python programming	
+	* Math	
+--------------------------------------------------------------

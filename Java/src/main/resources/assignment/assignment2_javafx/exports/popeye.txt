@@ -1,0 +1,11 @@
+--------------------------------------------------------------
+Username: popeye
+--------------------------------------------------------------
+Student ID: s3895022	Name: popeye sailor man
+--------------------------------------------------------------
+Your Enrolment:
+	* Java programming	
+	* Programming skills	
+	* Knowledge technologies	
+	* Algorithms and complexity	
+--------------------------------------------------------------

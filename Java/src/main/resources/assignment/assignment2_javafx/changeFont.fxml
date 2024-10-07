@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="480.0" style="-fx-background-color: #a8b1f6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.assignment2_javafx.styleController">
+    <children>
+        <ImageView fx:id="loginImage1" fitHeight="600.0" fitWidth="745.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: .5;">
+            <image>
+                <Image url="@Images/sporty2.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="loginImage4" fitHeight="147.0" fitWidth="155.0" layoutX="231.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/Slogin.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="nameLabel1" alignment="CENTER" layoutX="136.0" layoutY="283.0" prefHeight="20.0" prefWidth="155.0" text="New Font">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="nameLabel11" alignment="CENTER" layoutX="136.0" layoutY="323.0" prefHeight="20.0" prefWidth="155.0" text="New Font Size">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="confirmButton" layoutX="213.0" layoutY="411.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: #8efccf; -fx-cursor: hand;" text="Confirm">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Button>
+        <TextField fx:id="newFontSizeTextField" layoutX="302.0" layoutY="319.0" prefHeight="26.0" prefWidth="194.0">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="newFontTextField" layoutX="302.0" layoutY="280.0" prefHeight="26.0" prefWidth="194.0">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </TextField>
+        <Button fx:id="cancelButton" layoutX="319.0" layoutY="411.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: #F7846B; -fx-cursor: hand;" text="Cancel">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="logOutButton" layoutX="216.0" layoutY="474.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="183.0" style="-fx-background-color: #8efccf; -fx-cursor: hand;" text="Logout">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="firstNameLabel" alignment="CENTER" layoutX="130.0" layoutY="220.0" prefHeight="20.0" prefWidth="155.0" text="First Name">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="usernameLabel" alignment="CENTER" layoutX="229.0" layoutY="149.0" prefHeight="20.0" prefWidth="155.0" text="Username">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="studentIDLabel" alignment="CENTER" layoutX="130.0" layoutY="181.0" prefHeight="20.0" prefWidth="155.0" text="Student Id">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="setStudentIDLabel" alignment="CENTER" layoutX="296.0" layoutY="176.0" prefHeight="31.0" prefWidth="194.0" text="Student Id">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="setFirstNameLabel" alignment="CENTER" layoutX="296.0" layoutY="215.0" prefHeight="31.0" prefWidth="194.0" text="First Name">
+            <font>
+                <Font name="Helvetica Neue" size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

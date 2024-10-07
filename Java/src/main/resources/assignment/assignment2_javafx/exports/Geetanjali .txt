@@ -1,0 +1,11 @@
+--------------------------------------------------------------
+Username: Geetanjali 
+--------------------------------------------------------------
+Student ID: 01FE15BEC061	Name: Geetanjali Srinivas Yadav
+--------------------------------------------------------------
+Your Enrolment:
+	* Math	
+	* Knowledge technologies	
+	* Programming skills	
+	* Java programming	
+--------------------------------------------------------------

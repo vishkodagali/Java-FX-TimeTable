@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.assignment2_javafx.Controller">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="212.0" style="-fx-background-color: #8efccf;">
+         <children>
+            <Label layoutX="24.0" layoutY="233.0" prefHeight="25.0" prefWidth="200.0" text="Welcome To My Time Table">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="loginImage" fitHeight="239.0" fitWidth="247.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/learn.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="24.0" layoutY="257.0" prefHeight="25.0" prefWidth="200.0" text="Login ">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="24.0" layoutY="282.0" prefHeight="25.0" prefWidth="200.0" text="To">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="enrollImage" fitHeight="78.0" fitWidth="86.0" layoutX="14.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/add.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="377.0" prefHeight="25.0" prefWidth="78.0" text="enroll">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="deleteImage" fitHeight="54.0" fitWidth="54.0" layoutX="158.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/remove.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="146.0" layoutY="380.0" prefHeight="25.0" prefWidth="78.0" text="Withdraw">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="viewImage" fitHeight="78.0" fitWidth="54.0" layoutX="27.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/view.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="498.0" prefHeight="25.0" prefWidth="78.0" text="View">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="105.0" layoutY="441.0" prefHeight="25.0" prefWidth="133.0" text="Your ">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="105.0" layoutY="457.0" prefHeight="25.0" prefWidth="133.0" text="Enrollment">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="551.0" prefWidth="380.0" style="-fx-background-color: #a8b1f6;">
+         <children>
+            <ImageView fx:id="loginImage1" fitHeight="353.0" fitWidth="346.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: .5;">
+               <image>
+                  <Image url="@Images/sporty2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="loginImage2" fitHeight="358.0" fitWidth="353.0" layoutX="2.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: .5;">
+               <image>
+                  <Image url="@Images/sporty2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="loginImage3" fitHeight="138.0" fitWidth="353.0" layoutX="2.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: .8;">
+               <image>
+                  <Image url="@Images/cap2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="253.0" prefHeight="25.0" prefWidth="101.0" text="Username">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="287.0" prefHeight="25.0" prefWidth="101.0" text="Password">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTextField" layoutX="112.0" layoutY="252.0" promptText="s1234567" />
+            <TextField fx:id="passwordText" layoutX="111.0" layoutY="288.0" promptText="********">
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font></TextField>
+            <Button fx:id="loginButton" layoutX="128.0" layoutY="338.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="101.0" style="-fx-background-color: #8efccf; -fx-cursor: hand;" text="Login">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="98.0" layoutY="397.0" prefHeight="25.0" prefWidth="86.0" text="Not a user?">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="signUpButton" layoutX="170.0" layoutY="392.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up!" textFill="#2a07f2" underline="true">
+               <font>
+                  <Font name="Helvetica Neue" size="16.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="passwordTextField" layoutX="112.0" layoutY="288.0">
+               <font>
+                  <Font name="Helvetica Neue" size="13.0" />
+               </font></PasswordField>
+            <CheckBox fx:id="showCheckBox" layoutX="278.0" layoutY="291.0" mnemonicParsing="false" onAction="#ChangeVisibility" text="Show" />
+            <ImageView fx:id="loginImage4" fitHeight="232.0" fitWidth="271.0" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Slogin.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</HBox>
